@@ -27,8 +27,3 @@ My research interests include Scientific Machine Learning, Inverse Problems, Dat
 Short Bio
 ======
 Before moving to Illinois Tech, I was an assistant research scientist in the [Texas A&M Institute of Data Science](https://tamids.tamu.edu/) working with Prof. [U. Braga-Neto](https://braganeto.engr.tamu.edu/), Prof. [S. Foucart](https://www.math.tamu.edu/~foucart/), and Prof. [L. Wang](https://physics.tamu.edu/directory/lifan/) on the algorithmic and theoretic development and applications of Scientific Machine Learning.  And before my position at TAMU, I was a postdoc fellow at Johns Hopkins University working with Prof. [M. Maggioni](https://mauromaggioni.duckdns.org/) on various projects which combine machine learning and dynamical systems together to study collective behaviors (clustering, flocking, milling, etc.) from observation data.  I obtained my Ph.D. in Applied Mathematics, under the guidance of Prof. [E. Tadmor](https://www.math.umd.edu/~tadmor/).
-
-#Example: editing a markdown file for a talk
-#![Editing a markdown file for a talk](/images/editing-talk.png)
-
-
