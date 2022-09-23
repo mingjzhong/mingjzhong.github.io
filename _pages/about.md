@@ -14,9 +14,12 @@ Illinois Institute of Technology
 Chicago, IL 60616
 Email: mzhong3 (at) iit (dot) edu
 
-About
+Research Interests
 ======
-I am interested in research about how to use scientific machine learning to make knowledge/model discoveries from observation data.
+My research interests include Scientific Machine Learning, Inverse Problems, Data Recovery, Image/Signal Processing, Numerical ODE/PDE. In particular, I develop and analyze scientific machine learning algorithms for making knowledge/model discoveries from observation data. These algorithms are convergence, efficient (able to able to handle big data, with roughly linear run time), and effective (application to a wide range of situations).
+1. Physics Informed Machine Learning for solving and learning various PDEs
+1. 
+
 
 Getting started
 ======
