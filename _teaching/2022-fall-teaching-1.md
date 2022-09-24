@@ -8,13 +8,8 @@ date: 2022-08-22
 location: "Chicago, IL, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+First course in the B.S. in Data Science major.  Introducing basic data analysis skills using Python.
 
-Heading 1
+Material
 ======
-
-Heading 2
-======
-
-Heading 3
-======
+All course related material can be found on Blackboard.
