@@ -17,7 +17,7 @@ Research Interests
 ======
 My research interests include Scientific Machine Learning, Inverse Problems, Data Recovery, Image/Signal Processing, Numerical ODE/PDE. In particular, I develop and analyze scientific machine learning algorithms for making knowledge/model discoveries from observation data. These algorithms are convergence, efficient (able to able to handle big data, with roughly linear run time), and effective (application to a wide range of situations).
 1. [Physics Informed Machine Learning](https://youtu.be/1SuSrQcpiy4) for solving and learning various PDEs
-1. [Learning Self Organization](https://youtu.be/vmfKFZoFt4s) from Observations (2022 [AMS Gibbs Lecture](https://youtu.be/AenZz6Ooj2g) by Eitan Tadmor)
+1. [Learning Self Organization](https://youtu.be/vmfKFZoFt4s) from Observations (See the 2022 [AMS Gibbs Lecture](https://youtu.be/AenZz6Ooj2g) on Self Organization)
 1. Numerical PDEs, especially central schemes for hyperbolic conservation laws
 1. Computation of Optimal Transport Plan
 1. Geometric Numerical Integrators
@@ -25,7 +25,7 @@ My research interests include Scientific Machine Learning, Inverse Problems, Dat
 
 Opening
 ======
-Fully funded Ph.D. (with research assistantshp) position is avaiable in my group.  Interested students should apply through the official IIT portal.
+One fully funded Ph.D. (with research assistantshp) position is avaiable in my group.  Interested students should apply through the official [IIT page](https://www.iit.edu/academics/programs/applied-mathematics-phd).
 
 Short Bio
 ======
