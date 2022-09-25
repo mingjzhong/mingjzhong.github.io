@@ -1,11 +1,7 @@
 ---
-permalink: /
+permalink: /research/
 title: "Research"
-excerpt: "Research Projects"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I work on various kinds of inverse problems related to scientific machine leanring:
