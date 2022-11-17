@@ -10,7 +10,7 @@ I work on various kinds of inverse problems related to scientific machine leanri
 
 Learning Dynamics
 ======
-We have developed a learning framework to explain self organization (also known as collective behavior) from observation data.  A summary presentation of the research can be found [here](https://youtu.be/vmfKFZoFt4s), and a webinar on this topic can be found [here](https://youtu.be/yc-AIAEtGDc).
+We have developed a learning framework to explain self organization (also known as collective behavior) from observation data.  A summary presentation of the research can be found [here](https://youtu.be/vmfKFZoFt4s), a follow up presentation can be found [here](https://youtu.be/3OSb1gya7g4), and a webinar on this topic can be found [here](https://youtu.be/yc-AIAEtGDc).
 
 Physics Informed Machine Learning
 ======
