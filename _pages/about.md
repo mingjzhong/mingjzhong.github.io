@@ -18,7 +18,7 @@ Office: RE 115B <br/>
 Research Interests
 ======
 My research interests include Scientific Machine Learning, Inverse Problems, Data Recovery, Image/Signal Processing, Numerical ODE/PDE. In particular, I develop and analyze scientific machine learning algorithms for making knowledge/model discoveries from observation data. These algorithms are convergence, efficient (able to able to handle big data, with roughly linear run time), and effective (application to a wide range of situations).
-1. Physics Informed Machine Learning for solving and learning various PDEs ([Talk1 on YouTube}(https://youtu.be/1SuSrQcpiy4), [Talk2 on YouTube](https://youtu.be/3OSb1gya7g4))
+1. Physics Informed Machine Learning for solving and learning various PDEs ([Talk1 on YouTube](https://youtu.be/1SuSrQcpiy4), [Talk2 on YouTube](https://youtu.be/3OSb1gya7g4))
 1. [Learning Self Organization](https://youtu.be/vmfKFZoFt4s) from Observations (See the 2022 [AMS Gibbs Lecture](https://youtu.be/AenZz6Ooj2g) on Self Organization)
 1. Numerical PDEs, especially central schemes for hyperbolic conservation laws
 1. Computation of Optimal Transport Plan
