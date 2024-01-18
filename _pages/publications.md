@@ -18,26 +18,26 @@ author_profile: true
 
 **In Preparation**
 ------
-[J] X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws, 2023.
+1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws, 2023.
 
-[J] J. Feng, M. Maggioni, and M. Zhong, A Survey of Efficient Learning of High Dimensional Data, 2023.
+1. J. Feng, M. Maggioni, and M. Zhong, A Survey of Efficient Learning of High Dimensional Data, 2023.
 
-[J] J. Feng, Y. Lu, and M. Zhong.  Learning Second Order Dynamical Systems on Riemannian Manifolds, in preparation, 2023.
+1. J. Feng, Y. Lu, and M. Zhong.  Learning Second Order Dynamical Systems on Riemannian Manifolds, in preparation, 2023.
 
 
 **Under review**
 ------
-[C] B. Duan, Y. Yan, and M. Zhong. Towards saner deep image registration, Submitted, 2023.
+1. B. Duan, Y. Yan, and M. Zhong. Towards saner deep image registration, 2023.
 
-[C] Y. Shang, J. Feng, L. Yu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, 2023.
+1. Y. Shang, J. Feng, L. Yu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, 2023.
 
-[J] M. Zhong, and U. Braga-Neto.  Semi-supervised Training Schemes for Physics Informed Machine Learning for Solving PDEs, 2023.
+1. M. Zhong, and U. Braga-Neto.  Semi-supervised Training Schemes for Physics Informed Machine Learning for Solving PDEs, 2023.
 
-[J] T. Gerew and M. Zhong. Swarmalators that flock and sync, Submitted, 2023.
+1. T. Gerew and M. Zhong. Swarmalators that flock and sync, Submitted, 2023.
 
-[J] X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
+1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
-[J] M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, $2022$.
+1. M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, $2022$.
 
 **Journal**
 ------
