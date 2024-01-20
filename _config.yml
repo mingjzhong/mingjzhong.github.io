@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ming Zhong / SciML Lab"
+title                    : "SciML Lab"
 title_separator          : "-"
 name                     : &name "Ming Zhong"
 description              : &description "Assistant Professor in Applied Math"
@@ -84,7 +84,7 @@ author:
   avatar           : "profile_MZ.jpg"
   bio              : "Assistant Professor"
   location         : "Chicago, IL"
-  employer         : "Illinois Institute of Technology"
+  employer         : "Illinois Tech"
   pubmed           : #""
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=saQCXowAAAAJ"
   email            : "mzhong3@iit.edu"

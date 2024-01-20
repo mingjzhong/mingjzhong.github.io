@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Center for Stochastic Dynamics <br />
 Department of Applied Mathematics <br/>
 Illinois Institute of Technology <br/>
 Chicago, IL 60616 <br/>
