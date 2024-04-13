@@ -18,6 +18,10 @@ author_profile: true
 
 **In Preparation**
 ------
+[C] Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2024.
+
+[J] B. Hao, C. Liu, U. Braga-Neto, M. Zhong, Structure Preserving PINNs for Solving Reaction-Diffusion PDEs, 2024.
+
 [J] X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws, 2023.
 
 
@@ -27,9 +31,7 @@ author_profile: true
 
 [C] Y. Shang, J. Feng, L. Yu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, submitted, 2023.
 
-[J] M. Zhong, and U. Braga-Neto.  Semi-supervised Training Schemes for Physics Informed Machine Learning for Solving PDEs, 2023.
-
-[J] T. Gerew and M. Zhong. Swarmalators that flock and sync, Submitted, 2023.
+[J] M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2023.
 
 [J] X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
@@ -59,6 +61,8 @@ author_profile: true
 
 **Conference Publications**
 ------
+1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, accepted to ICLR, 2024.
+
 1. B. Duan, Y. Yan, and M. Zhong. Towards saner deep image registration, Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023, pp. 12459-12468.
 
 1. J. Feng, M. Maggioni, P. Martin, and M. Zhong. Learning interaction variables and kernels from observations of agent-based systems. IFAC-PapersOnLine, 55(30):162 – 167, 2022. 25th International Symposium on Mathematical Theory of Networks and Systems, 2022.
@@ -69,6 +73,8 @@ author_profile: true
 
 **ArXiv PrePrint**
 ------
+1. T. Gerew and M. Zhong. Swarmalators that flock and sync, 2023.
+
 1. M. Zhong. Time Relaxation with Iterative Modified Lavrentiev Regularization, 2018.
 
 1. N. Mays and M. Zhong. Iterative Refinement of A Modified Lavrentiev Regularization Method for De-convolution of the Discrete Helmholtz Type Differential Filter, 2018.
