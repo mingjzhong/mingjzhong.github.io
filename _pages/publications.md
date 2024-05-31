@@ -18,24 +18,24 @@ author_profile: true
 
 **In Preparation**
 ------
-[J] Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data.
+1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data.
 
-[J] B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary.
+1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary.
 
-[J] X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
+1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
 
 
 **Under review**
 ------
-[J] M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2022.
+1. M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2022.
 
-[J] X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
+1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
-[C] Y. Shang, J. Feng, Y. Lu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, submitted, 2023.
+1. Y. Shang, J. Feng, Y. Lu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, submitted, 2023.
 
-[C] R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra, PINNs-Based Uncertainty Quantification for Transient Stability Analysis, submitted, 2024.
+1. R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra, PINNs-Based Uncertainty Quantification for Transient Stability Analysis, submitted, 2024.
 
-[J] M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
+1. M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
 
 
 **Published**

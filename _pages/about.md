@@ -33,3 +33,6 @@ Before moving to Illinois Tech, I was an assistant research scientist in the [Te
 
 I received the [Ralph E. Powe Junior Faculty Enhancement Awards](https://www.orau.org/partnerships/grant-programs/powe/index.html) for new data-driven models for social science for FY2024.
 
+PhD Students and Postdocs
+======
+I'm looking for PhD students interested in working on the math foundation of data science (either theoretical or computational) for scientific discoveries from observation (mainly un the AI for Sciences theme), if you're interested and currently at UH, feel free to email me.  I am also looking for a postdoc work with me on AI for sciences, a job ad for a postdoc position for two years will be out soon.
