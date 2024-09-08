@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Department of Applied Mathematics <br/>
-Illinois Institute of Technology <br/>
-Chicago, IL 60616 <br/>
-Office: RE 115B <br/>
+Department of Mathematics <br/>
+University of Houston <br/>
+Houston, TX 77204 <br/>
+Office: PGH 636 <br/>
 
 Research Interests
 ======
@@ -29,7 +29,7 @@ I will be moving to University of Houston starting September of 2024.
 
 Short Bio
 ======
-Before moving to Illinois Tech, I was an assistant research scientist in the [Texas A&M Institute of Data Science](https://tamids.tamu.edu/) working with Prof. [U. Braga-Neto](https://braganeto.engr.tamu.edu/), Prof. [S. Foucart](https://www.math.tamu.edu/~foucart/), and Prof. [L. Wang](https://physics.tamu.edu/directory/lifan/) on the algorithmic and theoretic development and applications of Scientific Machine Learning.  And before my position at TAMU, I was a postdoc fellow at Johns Hopkins University working with Prof. [M. Maggioni](https://mauromaggioni.duckdns.org/) on various projects which combine machine learning and dynamical systems together to study collective behaviors (clustering, flocking, milling, etc.) from observation data.  I obtained my Ph.D. in Applied Mathematics, under the guidance of Prof. [E. Tadmor](https://www.math.umd.edu/~tadmor/).  
+Before moving to University of Houston, I was a tenure-track assistant Professor in Applied Mathematics at Illinois Tech, working problems related to the Mathematical Foundation of Data Science. And Before IIT, I was an assistant research scientist in the [Texas A&M Institute of Data Science](https://tamids.tamu.edu/) working with Prof. [U. Braga-Neto](https://braganeto.engr.tamu.edu/), Prof. [S. Foucart](https://www.math.tamu.edu/~foucart/), and Prof. [L. Wang](https://physics.tamu.edu/directory/lifan/) on the algorithmic and theoretic development and applications of Scientific Machine Learning.  And before my position at TAMU, I was a postdoc fellow at Johns Hopkins University working with Prof. [M. Maggioni](https://mauromaggioni.duckdns.org/) on various projects which combine machine learning and dynamical systems together to study collective behaviors (clustering, flocking, milling, etc.) from observation data.  I obtained my Ph.D. in Applied Mathematics, under the guidance of Prof. [E. Tadmor](https://www.math.umd.edu/~tadmor/).  
 
 I received the [Ralph E. Powe Junior Faculty Enhancement Awards](https://www.orau.org/partnerships/grant-programs/powe/index.html) for new data-driven models for social science for FY2024.
 
