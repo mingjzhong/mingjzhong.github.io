@@ -64,9 +64,9 @@ author_profile: true
 
 1. B. Hao, M. Zhong, K. O'Keeffe, Attractive and repulsive interactions in the one-dimensional swarmalator model, Physical Review E, 108(6), 064214, 2023.
 
-1. J. Feng, and M. Zhong.  Learning Collective Behaviors from Obsrvation, to appear, 2024.
+1. J. Feng, and M. Zhong.  Learning Collective Behaviors from Obsrvation, 2024.
 
-1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, to appear on ICLR, 2024.
+1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, ICLR, 2024.
 
 
 **ArXiv PrePrint**
