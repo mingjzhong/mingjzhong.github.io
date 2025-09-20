@@ -16,6 +16,7 @@ author_profile: true
 {% endfor %}
 --->
 
+<!---
 **In Preparation**
 ------
 1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data.
@@ -23,6 +24,7 @@ author_profile: true
 1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary.
 
 1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
+--->
 
 
 **Under review**
@@ -67,6 +69,8 @@ author_profile: true
 1. J. Feng, and M. Zhong.  Learning Collective Behaviors from Obsrvation, 2024.
 
 1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, ICLR, 2024.
+
+1. Y. Shang, Y. Lu, J. Feng, M. Zhong, Y. Yan. Noise-based Regularized Training for Diffusion Models, 19th International Conference on Machine Vision Applications, 2025.
 
 
 **ArXiv PrePrint**

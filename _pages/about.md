@@ -11,7 +11,7 @@ redirect_from:
 Department of Mathematics <br/>
 University of Houston <br/>
 Houston, TX 77204 <br/>
-Office: PGH 636 <br/>
+Office: PGH 616 <br/>
 
 Research Interests
 ======
@@ -27,7 +27,7 @@ Short Bio
 ======
 Before moving to University of Houston, I was a tenure-track assistant Professor in Applied Mathematics at Illinois Tech, working on problems related to the Mathematical Foundation of Data Science. Before IIT, I was an assistant research scientist in the [Texas A&M Institute of Data Science](https://tamids.tamu.edu/) working with Prof. [U. Braga-Neto](https://braganeto.engr.tamu.edu/), Prof. [S. Foucart](https://www.math.tamu.edu/~foucart/), and Prof. [L. Wang](https://physics.tamu.edu/directory/lifan/) on the algorithmic and theoretic development and applications of Scientific Machine Learning.  Earlier than my position at TAMU, I was a postdoc fellow at Johns Hopkins University working with Prof. [M. Maggioni](https://mauromaggioni.duckdns.org/) on various projects which combine machine learning and dynamical systems together to study collective behaviors (clustering, flocking, milling, etc.) from observation data.  I obtained my Ph.D. in Applied Mathematics, under the guidance of Prof. [E. Tadmor](https://www.math.umd.edu/~tadmor/).  
 
-I received the [Ralph E. Powe Junior Faculty Enhancement Awards](https://www.orau.org/partnerships/grant-programs/powe/index.html) for new data-driven models for social science for FY2024.
+I received the [Ralph E. Powe Junior Faculty Enhancement Awards](https://www.orau.org/news/releases/2024/powe-orau-awards-35-research-grants-totalling-175,000.html) for new data-driven models for social science for FY2024.
 
 PhD Students and Postdocs
 ======
