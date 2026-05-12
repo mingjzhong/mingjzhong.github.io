@@ -29,6 +29,9 @@ Before moving to University of Houston, I was a tenure-track assistant Professor
 
 I received the [Ralph E. Powe Junior Faculty Enhancement Awards](https://www.orau.org/news/releases/2024/powe-orau-awards-35-research-grants-totalling-175,000.html) for new data-driven models for social science for FY2024.
 
+<!---
 PhD Students and Postdocs
 ======
 I'm looking for PhD students interested in working on the math foundation of data science (either theoretical or computational) for making scientific discoveries from observation (mainly centering around the AI for Sciences theme), if you're interested and currently at UH, feel free to email me.  I am also looking for a postdoc work with me on AI for sciences, send me an email with CV if you are interested in the position.
+--->
+

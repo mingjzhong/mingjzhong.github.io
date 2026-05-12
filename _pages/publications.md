@@ -25,10 +25,6 @@ author_profile: true
 
 **Under review**
 ------
-1. M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2022.
-
-1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
-
 1. M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
 
 1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2026
@@ -45,27 +41,27 @@ author_profile: true
 
 1. M. Maggioni, J. Miller, H. Qiu, and M. Zhong. Learning interaction kernels for agent systems on riemannian manifolds. In Marina Meila and Tong Zhang, editors, Proceedings of the 38th International Conference on Machine Learning, volume 139 of Proceedings of Machine Learning Research, pages 7290 – 7300, PMLR, 2021.
 
-1. S. Foucart, E. Tadmor, and M. Zhong. On the sparsity of lasso minimizers in sparse data recovery. Constructive Approximation, 2022.
+1. S. Foucart, E. Tadmor, and M. Zhong. On the sparsity of lasso minimizers in sparse data recovery. Constructive Approximation, 57: 901 - 919, 2022.
 
 1. J. Feng, M. Maggioni, P. Martin, and M. Zhong. Learning interaction variables and kernels from observations of agent-based systems. IFAC-PapersOnLine, 55(30):162 – 167, 2022. 25th International Symposium on Mathematical Theory of Networks and Systems, 2022.
 
 1. J. Park, C. Saltijeral, and M. Zhong. Grassmanian packings: Trust region stochastic tuning for matrix incoherence. 58th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 1 - 6, 2022.
 
-1. E. J. R. Coutinho, M. Dall’Aqua, L. McClenny, M. Zhong, U. Braga-Neto, and E. Gildin. Stabilized hyperbolic pde solver by adding adaptive localized artificial viscosity to physics-informed neural networks, Journal of Computational Physics, 2023.
+1. E. J. R. Coutinho, M. Dall’Aqua, L. McClenny, M. Zhong, U. Braga-Neto, and E. Gildin. Stabilized hyperbolic pde solver by adding adaptive localized artificial viscosity to physics-informed neural networks, Journal of Computational Physics, 489: 112265, 2023.
 
-1. J. Greene, E. Tadmor, and M. Zhong. The emergence of social hierarchy in collective motion of living matters, Physical Biology, 2023.
+1. J. Greene, E. Tadmor, and M. Zhong. The emergence of social hierarchy in collective motion of living matters, Physical Biology, 20(5): 055001, 2023.
 
 1. B. Duan, Y. Yan, and M. Zhong. Towards saner deep image registration, Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023, pp. 12459-12468.
 
-1. J. Miller, S. Tang, M. Zhong, and M. Maggioni. Learning theory for inferring interaction kernels in second-order interacting agent systems, Sampling Theory, Signal Processing, and Data Analysis, 2023.
+1. J. Miller, S. Tang, M. Zhong, and M. Maggioni. Learning theory for inferring interaction kernels in second-order interacting agent systems, Sampling Theory, Signal Processing, and Data Analysis, 21: 21, 2023.
 
-1. B. Hao, M. Zhong, K. O'Keeffe, Attractive and repulsive interactions in the one-dimensional swarmalator model, Physical Review E, 108(6), 064214, 2023.
+1. B. Hao, M. Zhong, K. O'Keeffe, Attractive and repulsive interactions in the one-dimensional swarmalator model, Physical Review E, 108(6): 064214, 2023.
 
-1. J. Feng, and M. Zhong.  Learning Collective Behaviors from Obsrvation, 2024.
+1. J. Feng, and M. Zhong.  Learning Collective Behaviors from Observation, in Explorations in the Mathematics of Data Science (The Inaugural Volume of the Center for Approximation and Mathematical Data Analytics), 101 - 132, 2024.
 
-1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, ICLR, 2024.
+1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, ICLR 2024 Workshop on AI4DifferentialEquations In Science, 2024.
 
-1. Y. Shang, Y. Lu, J. Feng, M. Zhong, Y. Yan. Noise-based Regularized Training for Diffusion Models, 19th International Conference on Machine Vision Applications, 2025.
+1. Y. Shang, Y. Lu, J. Feng, M. Zhong, Y. Yan. Noise-based Regularized Training for Diffusion Models, 19th International Conference on Machine Vision Applications, IEICE Proceeding Series, 93:1, 2025.
 
 1. B. Hao, K. Milly, A. Quaini, M. Zhong. A finite element framework for simulating residential burglary in realistic urban geometries, Mathematical Models and Methods in Applied Sciences, 36905), 1019 - 1050, 2026.
 
@@ -79,6 +75,10 @@ author_profile: true
 1. N. Mays and M. Zhong. Iterative Refinement of A Modified Lavrentiev Regularization Method for De-convolution of the Discrete Helmholtz Type Differential Filter, 2018.
 
 1. M. Zhong. Time Relaxation with Iterative Modified Lavrentiev Regularization, 2018.
+
+1. M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2022.
+
+1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
 1. T. Gerew and M. Zhong. Swarmalators that flock and sync, 2023.
 
