@@ -19,10 +19,6 @@ author_profile: true
 <!---
 **In Preparation**
 ------
-1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data.
-
-1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary.
-
 1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
 --->
 
@@ -33,12 +29,11 @@ author_profile: true
 
 1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
-1. Y. Shang, J. Feng, Y. Lu, Y. Yan and M. Zhong.  Training-Stabilized Diffusion Models via Adding and Reducing Noise, submitted, 2023.
-
-1. R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra, PINNs-Based Uncertainty Quantification for Transient Stability Analysis, submitted, 2024.
-
 1. M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
 
+1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2026
+
+1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary, 2026
 
 **Published**
 ------
@@ -71,6 +66,12 @@ author_profile: true
 1. Z. Guo, I. Cialenco, M. Zhong, Learning Stochastic Dynamics from Data, ICLR, 2024.
 
 1. Y. Shang, Y. Lu, J. Feng, M. Zhong, Y. Yan. Noise-based Regularized Training for Diffusion Models, 19th International Conference on Machine Vision Applications, 2025.
+
+1. B. Hao, K. Milly, A. Quaini, M. Zhong. A finite element framework for simulating residential burglary in realistic urban geometries, Mathematical Models and Methods in Applied Sciences, 36905), 1019 - 1050, 2026.
+
+1. S. Shang, M. Zhong, R. Wang. 3D-PINNS: A UNIFIED FRAMEWORK FOR DIMENSION-WISE INTERPRETABILITY AND ADAPTIVE DOMAIN DECOMPOSITION, ICLR 2026 Workshop on AI and PDE, 2026.
+
+1. R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra, PINNs-Based Uncertainty Quantification for Transient Stability Analysis, 9th International Conference on Electrical Engineering, and Green Energy, 2026.
 
 
 **ArXiv PrePrint**
