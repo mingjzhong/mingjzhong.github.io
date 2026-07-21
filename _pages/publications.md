@@ -20,6 +20,7 @@ author_profile: true
 **In Preparation**
 ------
 1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
+1. Z. Guo, J. Greene, M. Zhong.  Uniform Learning from SDE with Complex Noise Structure, 2026.
 --->
 
 
@@ -29,7 +30,9 @@ author_profile: true
 
 1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2026
 
-1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong, Structure Preserving PINNs for Solving Time Dependent PDEs with Periodic Boundary, 2026
+1. C. Chen. C. Liu, M. Zhong. Unified Learning of the Profile Function in Discrete Keller-Segel Models, 2026.
+
+1. B. Hao, M. Maggioni, J. Miller, and M. Zhong. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2026.
 
 **Published**
 ------
@@ -63,11 +66,17 @@ author_profile: true
 
 1. Y. Shang, Y. Lu, J. Feng, M. Zhong, Y. Yan. Noise-based Regularized Training for Diffusion Models, 19th International Conference on Machine Vision Applications, IEICE Proceeding Series, 93:1, 2025.
 
-1. B. Hao, K. Milly, A. Quaini, M. Zhong. A finite element framework for simulating residential burglary in realistic urban geometries, Mathematical Models and Methods in Applied Sciences, 36905), 1019 - 1050, 2026.
+1. B. Hao, K. Milly, A. Quaini, M. Zhong. A finite element framework for simulating residential burglary in realistic urban geometries, Mathematical Models and Methods in Applied Sciences, 36(05), 1019 - 1050, 2026.
 
-1. S. Shang, M. Zhong, R. Wang. 3D-PINNS: A UNIFIED FRAMEWORK FOR DIMENSION-WISE INTERPRETABILITY AND ADAPTIVE DOMAIN DECOMPOSITION, ICLR 2026 Workshop on AI and PDE, 2026.
+1. S. Shang, M. Zhong, R. Wang. 3D-PINNS: A Unified Framework for Dimension-wise Interpretability and Adaptive Domain Decomposition, ICLR 2026 Workshop on AI and PDE, 2026.
 
-1. R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra, PINNs-Based Uncertainty Quantification for Transient Stability Analysis, 9th International Conference on Electrical Engineering, and Green Energy, 2026.
+1. R. Wang, M. Zhong, K. Xu, LG Sanchez-Cortes, IC Guerra. PINNs-Based Uncertainty Quantification for Transient Stability Analysis, 9th International Conference on Electrical Engineering, and Green Energy, 2026. (Best Poster Award)
+
+1. B. Hao, U. Braga-Neto, C. Liu, L. Wang, M. Zhong. Stability in Training PINNs for Stiff PDEs: Why Initial Conditions Matter. Foundation of Data Science, 2026.
+
+1. X. Chen, U. Braga-Neto, L. Wang, D. Kasen, Z. Liu, F. K. Ropke, M. Zhong, and D.J. Jeffery.  SEDONA-GesaRaT: an AI-Accelerated Radiative Transfer Program for 3-D Supernova Simulations, The Astrophysical Journal, 1006(1), 86, 2026.
+
+1. S. Shang, M. Zhong, R. Wang. Dimension Domain Co-Decomposition: Solving PDEs with Interpretability, accepted to TMLR, 2026.
 
 
 **ArXiv PrePrint**
@@ -75,8 +84,6 @@ author_profile: true
 1. N. Mays and M. Zhong. Iterative Refinement of A Modified Lavrentiev Regularization Method for De-convolution of the Discrete Helmholtz Type Differential Filter, 2018.
 
 1. M. Zhong. Time Relaxation with Iterative Modified Lavrentiev Regularization, 2018.
-
-1. M. Zhong, J. Miller, and M. Maggioni. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2022.
 
 1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
