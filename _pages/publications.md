@@ -16,26 +16,6 @@ author_profile: true
 {% endfor %}
 --->
 
-<!---
-**In Preparation**
-------
-1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
-1. Z. Guo, J. Greene, M. Zhong.  Uniform Learning from SDE with Complex Noise Structure, 2026.
---->
-
-
-**Under review**
-------
-1. M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
-
-1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2026
-
-1. C. Chen. C. Liu, M. Zhong. Unified Learning of the Profile Function in Discrete Keller-Segel Models, 2026.
-
-1. B. Hao, M. Maggioni, J. Miller, and M. Zhong. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2026.
-
-1. B. Hao, K. Milly, A. Quaini, M. Zhong.  Crime hotspot dynamics in residential burglary models with police response, 2026.
-
 **Published**
 ------
 1. B. Ganis, I. Yotov, and M. Zhong. A stochastic mortar mixed finite element method for flow in porous media with multiple rock types. SIAM J. Sci. Comp., 33(3):1439 – 1474, 2011.
@@ -80,6 +60,17 @@ author_profile: true
 
 1. S. Shang, M. Zhong, R. Wang. Dimension Domain Co-Decomposition: Solving PDEs with Interpretability, accepted to TMLR, 2026.
 
+**Submitted**
+------
+1. M. Zhong, D. Liu, A. Arroyave, and U. Braga-Neto.  Label Propagation Training Schemes for Physics-Informed Neural Networks and Gaussian Processes, 2024.
+
+1. Z. Guo, I. Cialenco, M. Zhong, Noise Guided Learning Stochastic Dynamics from High Dimensional Data, 2026
+
+1. C. Chen. C. Liu, M. Zhong. Unified Learning of the Profile Function in Discrete Keller-Segel Models, 2026.
+
+1. B. Hao, M. Maggioni, J. Miller, and M. Zhong. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2026.
+
+1. B. Hao, K. Milly, A. Quaini, M. Zhong.  Crime hotspot dynamics in residential burglary models with police response, 2026.
 
 **ArXiv PrePrint**
 ------
@@ -90,6 +81,13 @@ author_profile: true
 1. X. Chen, D. J. Jeffery, M. Zhong, L. McClenny, U. Braga-Neto, and L. Wang. Using physics informed neural networks for supernova radiative transfer simulation, 2022.
 
 1. T. Gerew and M. Zhong. Swarmalators that flock and sync, 2023.
+
+<!---
+**In Preparation**
+------
+1. X. Lu, M. Zhong, E. Oran, and U. Braga-Neto. Physics Informed Artificial Viscosity for Systems of Conservation Laws.
+1. Z. Guo, J. Greene, M. Zhong.  Uniform Learning from SDE with Complex Noise Structure, 2026.
+--->
 
 **Thesis**
 ------
