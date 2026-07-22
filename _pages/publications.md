@@ -34,6 +34,8 @@ author_profile: true
 
 1. B. Hao, M. Maggioni, J. Miller, and M. Zhong. Machine learning for discovering effective interaction kernels between celestial bodies from ephemerides, 2026.
 
+1. B. Hao, K. Milly, A. Quaini, M. Zhong.  Crime hotspot dynamics in residential burglary models with police response, 2026.
+
 **Published**
 ------
 1. B. Ganis, I. Yotov, and M. Zhong. A stochastic mortar mixed finite element method for flow in porous media with multiple rock types. SIAM J. Sci. Comp., 33(3):1439 – 1474, 2011.
