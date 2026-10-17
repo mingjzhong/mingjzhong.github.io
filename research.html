@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research by Ming Zhong in scientific machine learning, dynamical systems, and inverse problems.">
+  <meta name="description" content="Research by Ming Zhong in collective behavior, stochastic dynamics, crime modeling, scientific machine learning, inverse problems, and large-scale computation.">
   <title>Research | Ming Zhong</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,30 +19,199 @@
   </div></header>
 
   <main>
-    <header class="page-heading"><div class="container">
+    <header class="page-heading page-heading-featured"><div class="container">
       <p class="eyebrow">Research</p>
-      <h1>Recovering governing structure from scientific data</h1>
-      <p class="summary">I develop mathematical and computational methods for ill-posed inverse problems in scientific machine learning, especially the recovery of low-dimensional governing structure from high-dimensional, noisy, partial, or under-resolved observations.</p>
+      <h1>Finding governing structure in scientific data</h1>
+      <p class="summary">I study a wide range of problems in applied and computational mathematics, motivated by a common question: what governing structures generate the data we observe?</p>
+      <p class="research-overview">Answering this question requires ideas from scientific computing, numerical methods for ordinary and partial differential equations, dynamical systems, machine learning, probability, and statistics. Across applications, I combine mathematical modeling with structure-aware learning to identify mechanisms, quantify uncertainty, and build reliable computational methods from complex, noisy, or incomplete observations.</p>
     </div></header>
 
-    <section class="content-section"><div class="container">
-      <div class="feature-list">
-        <article class="feature"><div class="feature-number">01</div><div>
-          <h2>Learning governing dynamics from high-dimensional observations</h2>
-          <p>I seek low-dimensional laws hidden in high-dimensional data. My work develops nonparametric and structure-aware methods for identifying interaction kernels, environmental forces, latent variables, and stochastic dynamics from trajectories, equilibrium configurations, and partial observations.</p>
-          <ul><li>Interaction-law learning from trajectories and collective steady states</li><li>Joint discovery of interaction variables, kernels, and environmental effects</li><li>System identification for SDEs and stochastic PDEs with structured noise</li><li>Applications to self-organization, celestial mechanics, and biological systems</li></ul>
-        </div></article>
-        <article class="feature"><div class="feature-number">02</div><div>
-          <h2>Inverse problems for partially observed scientific systems</h2>
-          <p>I study systems in which observations reveal only part of the evolving state or a composite quantity. Residential burglary dynamics provides a central model problem: the observable crime activity couples hidden attractiveness and population fields, so successful forward simulation does not by itself imply identifiable inverse recovery.</p>
-          <ul><li>Joint state and parameter recovery from direct and indirect observations</li><li>Identifiability under limited spatial and temporal sampling</li><li>Finite-element learning methods with PDE-compatible regularization</li><li>Applications to urban crime, hidden-state recovery, and uncertainty analysis</li></ul>
-        </div></article>
-        <article class="feature"><div class="feature-number">03</div><div>
-          <h2>Numerical and computational foundations of scientific machine learning</h2>
-          <p>Reliable recovery requires approximations and optimization methods that respect the governing mathematics. I study stability, approximation error, conditioning, and computational cost across physics-informed neural networks, random features, Gaussian processes, and traditional numerical methods.</p>
-          <ul><li>Stable training for stiff and hyperbolic PDEs</li><li>Dimension and domain co-decomposition for interpretable approximation</li><li>Physics-informed random features, Gaussian processes, and hybrid solvers</li><li>Applications to power systems, supernova simulation, and conservation laws</li></ul>
-        </div></article>
+    <section class="content-section research-section"><div class="container">
+      <div class="research-book" data-research-book>
+        <div class="research-tabs" role="tablist" aria-label="Research categories" aria-orientation="vertical">
+          <button class="research-tab" id="tab-collective" type="button" role="tab" aria-selected="true" aria-controls="collective" data-target="collective"><span>01</span>Collective behavior</button>
+          <button class="research-tab" id="tab-stochastic" type="button" role="tab" aria-selected="false" aria-controls="stochastic" data-target="stochastic" tabindex="-1"><span>02</span>Stochastic dynamics</button>
+          <button class="research-tab" id="tab-crime" type="button" role="tab" aria-selected="false" aria-controls="crime" data-target="crime" tabindex="-1"><span>03</span>Crime modeling</button>
+          <button class="research-tab" id="tab-piml" type="button" role="tab" aria-selected="false" aria-controls="piml" data-target="piml" tabindex="-1"><span>04</span>Physics-informed ML</button>
+          <button class="research-tab" id="tab-regularization" type="button" role="tab" aria-selected="false" aria-controls="regularization" data-target="regularization" tabindex="-1"><span>05</span>Regularization</button>
+          <button class="research-tab" id="tab-computation" type="button" role="tab" aria-selected="false" aria-controls="computation" data-target="computation" tabindex="-1"><span>06</span>Large-scale computing</button>
+        </div>
+
+        <div class="research-panels">
+          <article class="research-panel" id="collective" role="tabpanel" aria-labelledby="tab-collective" tabindex="0">
+            <p class="research-chapter">Research chapter 01</p>
+            <h2>Understanding Collective Behavior</h2>
+            <p class="research-lead">Collective behavior arises in interacting-particle and agent-based systems when a global pattern - or self-organization - emerges from local, often pairwise, interactions. It is ubiquitous in natural and societal phenomena, including clustering, flocking, milling, swarming, and synchronization. We study collective behavior from two complementary perspectives: learning interaction or communication kernels from data, and designing classes of interaction kernels that induce particular collective behaviors.</p>
+
+            <section class="research-subsection">
+              <p class="research-kicker">Learning from observation</p>
+              <h3>Learning Interaction Kernels</h3>
+              <p>Inferring interaction kernels from observations of dynamical systems in which collective behavior emerges is a challenging inverse problem. Our work began with a variational approach for basic first- and second-order systems. The framework has since grown to learn dynamics on manifolds, higher-dimensional interaction kernels with or without known interaction variables, environmental forces, and governing laws encoded by collective steady-state patterns.</p>
+
+              <div class="research-media-grid" aria-label="Examples of learned collective dynamics">
+                <figure class="research-media">
+                  <video controls playsinline preload="metadata" aria-label="Fish-milling dynamics comparing observed and learned collective behavior">
+                    <source src="FM2D_mov.mp4" type="video/mp4">
+                    Your browser does not support embedded MP4 video.
+                  </video>
+                  <figcaption><strong>Fish milling.</strong> Comparison of collective dynamics generated by the true and learned interaction laws.</figcaption>
+                </figure>
+                <figure class="research-media">
+                  <video controls playsinline preload="metadata" aria-label="Swarmalator dynamics showing collective motion and synchronization">
+                    <source src="SOD_mov.mp4" type="video/mp4">
+                    Your browser does not support embedded MP4 video.
+                  </video>
+                  <figcaption><strong>Swarmalator dynamics.</strong> Collective spatial organization coupled with phase synchronization.</figcaption>
+                </figure>
+              </div>
+
+              <div class="related-papers">
+                <h4>Selected papers <span>Newest first</span></h4>
+                <ul>
+                  <li>Learning Interaction Kernels from Collective Steady States</li>
+                  <li>Simultaneous Inference of Environmental and Interaction Forces in Collective Dynamics</li>
+                  <li>Unified Learning of the Profile Function in Discrete Keller-Segel Models</li>
+                  <li>Learning Collective Behaviors from Observation</li>
+                  <li>Learning Interaction Variables and Kernels from Observations of Agent-Based Systems</li>
+                  <li>Machine Learning for Discovering Effective Interaction Kernels Between Celestial Bodies from Ephemerides</li>
+                  <li>Learning Interaction Kernels for Agent Systems on Riemannian Manifolds</li>
+                  <li>Learning Theory for Inferring Interaction Kernels in Second-Order Interacting Agent Systems</li>
+                  <li>Data-Driven Discovery of Emergent Behaviors in Collective Dynamics</li>
+                  <li>Nonparametric Inference of Interaction Laws in Systems of Agents from Trajectory Data</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="research-subsection">
+              <p class="research-kicker">Forward problems</p>
+              <h3>Modeling Collective Behavior</h3>
+              <p>To expand the range of systems that can ultimately be learned from data, we also study the forward modeling of collective dynamics. These models broaden the possible equation forms for interacting-agent systems and create opportunities to develop new structure-aware learning methods.</p>
+              <div class="related-papers">
+                <h4>Selected papers <span>Newest first</span></h4>
+                <ul>
+                  <li>Attractive and Repulsive Interactions in the One-Dimensional Swarmalator Model</li>
+                  <li>The Emergence of Lines of Hierarchy in Collective Motion of Biological Systems</li>
+                  <li>Concurrent Emergence of Clustering, Flocking and Synchronization in Systems of Interacting Agents</li>
+                </ul>
+              </div>
+            </section>
+          </article>
+
+          <article class="research-panel" id="stochastic" role="tabpanel" aria-labelledby="tab-stochastic" tabindex="0">
+            <p class="research-chapter">Research chapter 02</p>
+            <h2>Learning from Dynamical Data with Stochastic Noise</h2>
+            <p class="research-lead">Stochasticity is unavoidable in scientific data. It may arise through observation noise, model error, unresolved scales, or incomplete observation. We develop methods that recover a complete picture of stochastic dynamics - including SDE and SPDE models - without assuming in advance that the underlying data-generating system is stochastic.</p>
+            <p>Our methods distinguish drift, diffusion, and reaction effects and determine which mechanisms are supported by the observations. The long-term goal is an integrated learning framework that can take time-series data from an unknown dynamical system and determine whether its governing dynamics are deterministic or stochastic, then identify the appropriate structure.</p>
+
+            <figure class="research-figure">
+              <img src="SDE_learn.png" alt="Comparison of a true and learned drift function alongside trajectories generated by each model" width="1500" height="600" loading="lazy">
+              <figcaption>A learned drift function and trajectories from the true and inferred stochastic dynamical systems.</figcaption>
+            </figure>
+
+            <div class="related-papers">
+              <h4>Selected papers <span>Newest first</span></h4>
+              <ul>
+                <li>Learning Stochastic Dynamical Systems with Structured Noise</li>
+                <li>Noise-Aware System Identification for High-Dimensional Stochastic Dynamics</li>
+                <li>Learning Stochastic Dynamics from Data</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="crime" role="tabpanel" aria-labelledby="tab-crime" tabindex="0">
+            <p class="research-chapter">Research chapter 03</p>
+            <h2>Crime Modeling</h2>
+            <p class="research-lead">Modeling criminal activity - residential burglary in particular - is a challenging multiscale problem. We begin with an interacting-agent system containing three components: the static attractiveness of individual houses, moving criminal agents, and moving police agents whose perception of attractiveness is delayed.</p>
+            <p>By letting the spatial grid size and time step approach zero while preserving the appropriate scale ratios, we derive a continuum limit consisting of Keller-Segel-type PDEs coupled to a delay-like ODE. We study the analytical properties of these models and use simulation to compare policing strategies and the resulting crime-hotspot dynamics.</p>
+
+            <figure class="research-figure research-figure-wide">
+              <img src="strategy_comparison.png" alt="Time-series comparison of no policing, fixed, optimal, and realistic policing strategies with corresponding crime-hotspot patterns" width="5402" height="2970" loading="lazy">
+              <figcaption>Comparison of fixed, optimal, and realistic policing strategies in a residential burglary model.</figcaption>
+            </figure>
+
+            <div class="related-papers">
+              <h4>Selected papers <span>Newest first</span></h4>
+              <ul>
+                <li>Crime Hotspot Dynamics in Residential Burglary Models with Police Response</li>
+                <li>A Finite Element Framework for Simulating Residential Burglary in Realistic Urban Geometries</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="piml" role="tabpanel" aria-labelledby="tab-piml" tabindex="0">
+            <p class="research-chapter">Research chapter 04</p>
+            <h2>Physics-Informed Machine Learning</h2>
+            <p class="research-lead">Scientific machine learning combines machine learning with the structure, algorithms, and error-aware perspective of scientific computing and numerical analysis. We develop methods that make physics-informed learning more stable, efficient, and interpretable across challenging differential-equation problems.</p>
+            <p>Our work includes enhanced training strategies for physics-informed neural networks, hybrid approaches combining PINNs and physics-informed Gaussian processes, new architectures based on random-feature neural networks, and interpretable decompositions of learned PDE solutions. Applications include power systems, astrophysical radiative transfer, conservation laws, and other stiff or multiscale systems.</p>
+
+            <figure class="research-figure research-figure-wide">
+              <img src="stiff_all_cases.png" alt="Exact solutions, physics-informed neural-network predictions, and error fields for several stiff PDE test cases" width="2885" height="1725" loading="lazy">
+              <figcaption>Exact solutions, learned solutions, and error fields across several stiff PDE benchmarks.</figcaption>
+            </figure>
+
+            <div class="related-papers">
+              <h4>Selected papers <span>Newest first</span></h4>
+              <ul>
+                <li>Physics-Informed Random Feature Neural Networks for Solving PDEs</li>
+                <li>Event-Structured Physics-Informed Neural Networks for Differentiable Critical Clearing Boundaries</li>
+                <li>Dimension Domain Co-Decomposition: Solving PDEs with Interpretability</li>
+                <li>3D-PINNS: A Unified Framework for Dimension-Wise Interpretability and Adaptive Domain Decomposition</li>
+                <li>SEDONA-GesaRaT: A Deep Learning Accelerated Radiative Transfer Program for 3D Supernova Simulations</li>
+                <li>Stability in Training PINNs for Stiff PDEs: Why Initial Conditions Matter</li>
+                <li>Label Propagation for Physics-Informed Neural Networks and Physics-Informed Gaussian Processes</li>
+                <li>PINNs-Based Uncertainty Quantification for Transient Stability Analysis</li>
+                <li>Using Physics-Informed Neural Networks for Supernova Radiative Transfer Simulation</li>
+                <li>Stabilized Hyperbolic PDE Solver by Adding Adaptive Localized Artificial Viscosity to Physics-Informed Neural Networks</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="regularization" role="tabpanel" aria-labelledby="tab-regularization" tabindex="0">
+            <p class="research-chapter">Research chapter 05</p>
+            <h2>Regularization Techniques for Ill-Posed Inverse Problems</h2>
+            <p class="research-lead">We develop regularization methods for ill-posed inverse problems arising in medical image registration, diffusion-model training, compressed sensing, deconvolution, and other signal- and image-processing applications.</p>
+            <p>Regularization introduces carefully chosen mathematical structure, controlled by a regularization parameter, to obtain stable and well-defined approximations. We study existence and uniqueness for the resulting regularized problems, along with convergence of the regularized solutions as the parameter varies.</p>
+
+            <figure class="research-figure research-figure-compact">
+              <img src="image_registration.png" alt="Brain-image registration comparison showing a folded deformation under strict inverse consistency and a regular deformation under a sanity-checked method" width="761" height="675" loading="lazy">
+              <figcaption>Regularization in medical image registration: preserving consistency while avoiding folded deformation maps.</figcaption>
+            </figure>
+
+            <div class="related-papers">
+              <h4>Selected papers <span>Newest first</span></h4>
+              <ul>
+                <li>Noise-Based Regularized Training for Diffusion Models</li>
+                <li>Towards Saner Deep Image Registration</li>
+                <li>On the Sparsity of Lasso Minimizers in Sparse Data Recovery</li>
+                <li>Time Relaxation with Iterative Modified Lavrentiev Regularization</li>
+                <li>Iterative Refinement of a Modified Lavrentiev Regularization Method for De-Convolution of the Discrete Helmholtz Type Differential Filter</li>
+                <li>Hierarchical Reconstruction Method for Solving Ill-Posed Linear Inverse Problems</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="research-panel" id="computation" role="tabpanel" aria-labelledby="tab-computation" tabindex="0">
+            <p class="research-chapter">Research chapter 06</p>
+            <h2>Large-Scale Computational Efficiency</h2>
+            <p class="research-lead">We develop efficient numerical algorithms for large-scale computational problems whose dimension, geometry, or stochastic structure makes direct computation impractical.</p>
+            <p>Examples include reservoir simulation with spatially varying permeability and high-dimensional stochastic structure, as well as optimization methods for matrix incoherence. The aim is to preserve the essential mathematics of a problem while making its computation scalable and reliable.</p>
+
+            <figure class="research-figure research-figure-wide">
+              <img src="stochastic_darcy_sim.png" alt="Three-dimensional heterogeneous permeability realization and its corresponding simulated pressure solution" width="1107" height="436" loading="lazy">
+              <figcaption>A heterogeneous permeability realization and its corresponding pressure solution in stochastic porous-media flow.</figcaption>
+            </figure>
+
+            <div class="related-papers">
+              <h4>Selected papers <span>Newest first</span></h4>
+              <ul>
+                <li>Grassmannian Packings: Trust Region Stochastic Tuning for Matrix Incoherence</li>
+                <li>A Stochastic Mortar Mixed Finite Element Method for Flow in Porous Media with Multiple Rock Types</li>
+              </ul>
+            </div>
+          </article>
+        </div>
       </div>
+      <p class="research-publications-link"><a class="button" href="publications.html">Browse the complete publication record</a></p>
     </div></section>
 
     <section class="content-section"><div class="container section-grid">
@@ -54,5 +223,51 @@
     </div></section>
   </main>
   <footer><div class="container">© 2026 Ming Zhong · University of Houston</div></footer>
+
+  <script>
+    (() => {
+      const book = document.querySelector("[data-research-book]");
+      if (!book) return;
+
+      const tabs = Array.from(book.querySelectorAll('[role="tab"]'));
+      const panels = Array.from(book.querySelectorAll('[role="tabpanel"]'));
+
+      const activate = (tab, updateHash = false) => {
+        tabs.forEach((item) => {
+          const active = item === tab;
+          item.setAttribute("aria-selected", active ? "true" : "false");
+          item.tabIndex = active ? 0 : -1;
+        });
+        panels.forEach((panel) => {
+          panel.hidden = panel.id !== tab.dataset.target;
+        });
+        if (updateHash) history.replaceState(null, "", `#${tab.dataset.target}`);
+      };
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => activate(tab, true));
+        tab.addEventListener("keydown", (event) => {
+          let nextIndex = null;
+          if (["ArrowDown", "ArrowRight"].includes(event.key)) nextIndex = (index + 1) % tabs.length;
+          if (["ArrowUp", "ArrowLeft"].includes(event.key)) nextIndex = (index - 1 + tabs.length) % tabs.length;
+          if (event.key === "Home") nextIndex = 0;
+          if (event.key === "End") nextIndex = tabs.length - 1;
+          if (nextIndex === null) return;
+          event.preventDefault();
+          activate(tabs[nextIndex], true);
+          tabs[nextIndex].focus();
+        });
+      });
+
+      const selectFromHash = () => {
+        const id = window.location.hash.slice(1);
+        const matchingTab = tabs.find((tab) => tab.dataset.target === id);
+        activate(matchingTab || tabs[0]);
+      };
+
+      selectFromHash();
+      window.addEventListener("hashchange", selectFromHash);
+    })();
+  </script>
 </body>
 </html>
