@@ -86,6 +86,12 @@
               <p class="research-kicker">Forward approaches</p>
               <h3>Modeling Collective Behavior</h3>
               <p>To expand the range of systems that can ultimately be learned from data, we also study the forward modeling of collective dynamics. These models broaden the possible equation forms for interacting-agent systems and create opportunities to develop new structure-aware learning methods.</p>
+              
+              <figure class="research-figure research-figure-wide">
+                <img src="line_formation.png" alt="Formation of Line (Hierarchy) in Biological Systems" width="2885" height="1725" loading="lazy">
+                <figcaption>Cucker-Smale with an Emergency of Hierarchy.</figcaption>
+              </figure>             
+
               <div class="related-papers">
                 <h4>Representative papers</span></h4>
                 <ul>
@@ -125,8 +131,8 @@
             <p>By letting the spatial grid size and time step approach zero while preserving the appropriate scale ratios, we derive a continuum limit consisting of Keller-Segel-type PDEs coupled to a delay-like ODE. We study the analytical properties of these models and use simulation to compare policing strategies and the resulting crime-hotspot dynamics.</p>
 
             <figure class="research-figure research-figure-wide">
-              <img src="strategy_comparison.png" alt="Time-series comparison of no policing, fixed, optimal, and realistic policing strategies with corresponding crime-hotspot patterns" width="5402" height="2970" loading="lazy">
-              <figcaption>Comparison of fixed, optimal, and realistic policing strategies in a residential burglary model.</figcaption>
+              <img src="empirical_hotspot.jpg" alt="Empirical Hotspot of Data provided by the City of Chicago" width="5402" height="2970" loading="lazy">
+              <figcaption>Empirical Hotspot of Data provided by the City of Chicago.</figcaption>
             </figure>
 
             <div class="related-papers">
@@ -141,29 +147,52 @@
           <article class="research-panel" id="piml" role="tabpanel" aria-labelledby="tab-piml" tabindex="0">
             <p class="research-chapter">Research chapter 04</p>
             <h2>Physics-Informed Machine Learning</h2>
-            <p class="research-lead">Scientific machine learning combines machine learning with the structure, algorithms, and error-aware perspective of scientific computing and numerical analysis. We develop methods that make physics-informed learning more stable, efficient, and interpretable across challenging differential-equation problems.</p>
+            <p class="research-lead">Scientific machine learning combines machine learning with the structure, algorithms, and error-aware perspective of scientific computing and numerical analysis. We develop methods that make physics-informed learning more stable, efficient, and interpretable across challenging ODE/PDE driven problems.</p>
             <p>Our work includes enhanced training strategies for physics-informed neural networks, hybrid approaches combining PINNs and physics-informed Gaussian processes, new architectures based on random-feature neural networks, and interpretable decompositions of learned PDE solutions. Applications include power systems, astrophysical radiative transfer, conservation laws, and other stiff or multiscale systems.</p>
+            
+            <section class="research-subsection">
+              <p class="research-kicker">Methogology</p>
+              <h3>PIML Training Enhancements</h3>
+              <p>PIML methods (including but not limited to Physics Informed Neural Networks (PINNs), Physics Informed Gaussian Processes (PIGPs), and Physics Informed Random Feature Net) are a new bran of numerical methods for solving differential-equation driven dynamics.  We provide methodology analysis on how to improve the training of these methods, especially for solving stiff PDEs and Hyperbolic PDEs.</p>
 
-            <figure class="research-figure research-figure-wide">
-              <img src="stiff_all_cases.png" alt="Exact solutions, physics-informed neural-network predictions, and error fields for several stiff PDE test cases" width="2885" height="1725" loading="lazy">
-              <figcaption>Exact solutions, learned solutions, and error fields across several stiff PDE benchmarks.</figcaption>
-            </figure>
+              <figure class="research-figure research-figure-wide">
+                <img src="stiff_all_cases.png" alt="Exact solutions, physics-informed neural-network predictions, and error fields for several stiff PDE test cases" width="2885" height="1725" loading="lazy">
+                <figcaption>Exact solutions, learned solutions, and error fields across several stiff PDE benchmarks.</figcaption>
+              </figure>
 
-            <div class="related-papers">
-              <h4>Representative papers</h4>
-              <ul>
-                <li>Physics-Informed Random Feature Neural Networks for Solving PDEs, arxiv, 2026.</li>
-                <li>Event-Structured Physics-Informed Neural Networks for Differentiable Critical Clearing Boundaries, arxiv, 2026.</li>
-                <li>Dimension Domain Co-Decomposition: Solving PDEs with Interpretability, TMLR, 2026.</li>
-                <li>3D-PINNS: A Unified Framework for Dimension-Wise Interpretability and Adaptive Domain Decomposition, ICLR Workshop, 2026.</li>
-                <li>SEDONA-GesaRaT: A Deep Learning Accelerated Radiative Transfer Program for 3D Supernova Simulations, ApJ, 2026.</li>
-                <li>Stability in Training PINNs for Stiff PDEs: Why Initial Conditions Matter, FoDS, 2026.</li>
-                <li>Label Propagation for Physics-Informed Neural Networks and Physics-Informed Gaussian Processes, arxiv, 2024.</li>
-                <li>PINNs-Based Uncertainty Quantification for Transient Stability Analysis, CEEGE, 2026.</li>
-                <li>Using Physics-Informed Neural Networks for Supernova Radiative Transfer Simulation, arxiv, 2023.</li>
-                <li>Physics-Informed Neural Networks with Adaptive Localized Artificial Viscosity, JCP, 2023.</li>
-              </ul>
-            </div>
+              <div class="related-papers">
+                <h4>Representative papers</h4>
+                <ul>
+                  <li>Physics-Informed Random Feature Neural Networks for Solving PDEs, arxiv, 2026.</li>
+                  <li>Dimension Domain Co-Decomposition: Solving PDEs with Interpretability, TMLR, 2026.</li>
+                  <li>3D-PINNS: A Unified Framework for Dimension-Wise Interpretability and Adaptive Domain Decomposition, ICLR Workshop, 2026.</li>
+                  <li>Stability in Training PINNs for Stiff PDEs: Why Initial Conditions Matter, FoDS, 2026.</li>
+                  <li>Label Propagation for Physics-Informed Neural Networks and Physics-Informed Gaussian Processes, arxiv, 2024.</li>
+                  <li>Physics-Informed Neural Networks with Adaptive Localized Artificial Viscosity, JCP, 2023.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="research-subsection">
+              <p class="research-kicker">Applications</p>
+              <h3>Domain Sciences Driven PIML Methods</h3>
+              <p>PIML solutions can work as excellent surrogate models and thus can speed up various science/engineering simulations.  We provide PIML based surrogate modeling (including operator learning) for particular applications, such as RTE in Astrophysics, Power System Analysis, and more. </p>
+
+              <figure class="research-figure research-figure-wide">
+                <img src="PINN_4_power_system.png" alt="PINN Solution for a 5-Generator System" width="2885" height="1725" loading="lazy">
+                <figcaption>PINN Solution for a Power System with Five Generators.</figcaption>
+              </figure>
+
+              <div class="related-papers">
+                <h4>Representative papers</h4>
+                <ul>
+                  <li>Event-Structured Physics-Informed Neural Networks for Differentiable Critical Clearing Boundaries, arxiv, 2026.</li>
+                  <li>SEDONA-GesaRaT: A Deep Learning Accelerated Radiative Transfer Program for 3D Supernova Simulations, ApJ, 2026.</li>
+                  <li>PINNs-Based Uncertainty Quantification for Transient Stability Analysis, CEEGE, 2026.</li>
+                  <li>Using Physics-Informed Neural Networks for Supernova Radiative Transfer Simulation, arxiv, 2023.</li>
+                </ul>
+              </div>
+            </section>            
           </article>
 
           <article class="research-panel" id="regularization" role="tabpanel" aria-labelledby="tab-regularization" tabindex="0">
@@ -185,7 +214,7 @@
                 <li>On the Sparsity of Lasso Minimizers in Sparse Data Recovery, Constructive Approximation, 2023.</li>
                 <li>Time Relaxation with Iterative Modified Lavrentiev Regularization, arxiv, 2018.</li>
                 <li>Iterative Refinement of a Modified Lavrentiev Regularization Method for De-Convolution of the Discrete Helmholtz Type Differential Filter, arxiv, 2018.</li>
-                <li>Hierarchical Reconstruction Method for Solving Ill-Posed Linear Inverse Problems, UMD, 2026.</li>
+                <li>Hierarchical Reconstruction Method for Solving Ill-Posed Linear Inverse Problems, UMD, 2016.</li>
               </ul>
             </div>
           </article>
