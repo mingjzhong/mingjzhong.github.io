@@ -20,63 +20,282 @@
   </div></header>
 
   <main>
-    <header class="page-heading"><div class="container">
+    <header class="page-heading page-heading-featured"><div class="container">
       <p class="eyebrow">Teaching</p>
       <h1>From guided examples to independent inquiry</h1>
       <p class="summary">My goal is to help students connect mathematics to what they already understand, then develop the confidence to use those ideas in unfamiliar problems.</p>
+      <div class="header-topics" aria-label="Teaching areas">
+        <span>Differential equations</span><span>Numerical analysis</span><span>Scientific machine learning</span><span>Data science</span>
+      </div>
     </div></header>
 
-    <section class="content-section"><div class="container section-grid">
-       <h2>Current and Scheduled Courses</h2><div class="section-body">
-        <h3 class="subheading">University of Houston</h3>
-        <ul class="timeline">
-          <li><span class="when">Fall 2027</span><div><strong>MATH 3363 · Introduction to Partial Differential Equations</strong><p>scheduled.</p></div></li>
-          <li><span class="when">Spring 2027</span><div><strong>MATH 6397 · Learning Differential Equations from Data: Theory and Application</strong><p>Graduate topics course; scheduled.</p></div></li>
-          <li><span class="when">Fall 2026</span><div><strong>MATH 3363 · Introduction to Partial Differential Equations</strong></div></li>
-        </ul>   
-    </div></section>   
+    <section class="content-section teaching-section">
+      <div class="container teaching-wrap">
+        <div class="teaching-intro">
+          <h2>Courses by year</h2>
+          <p>Choose a year to view courses, summer-school lectures, and REU instruction from that period.</p>
+        </div>
 
-    <section class="content-section"><div class="container section-grid">
-      <h2>Past Courses</h2><div class="section-body">
-        <h3 class="subheading">University of Houston</h3>
-        <ul class="timeline">
-          <li><span class="when">Spring 2026</span><div><strong>MATH 3331 · Intermediate Differential Equations</strong></div></li>
-          <li><span class="when">Fall 2025</span><div><strong>No Teaching (On Leave)</strong></div></li>
-          <li><span class="when">Spring 2025</span><div><strong>MATH 3331 · Intermediate Differential Equations</strong></div></li>
-          <li><span class="when">Fall 2024</span><div><strong>MATH 4364 · Introduction to Numerical Analysis in Scientific Computing</strong></div></li>
-        </ul>
-        <h3 class="subheading">Illinois Institute of Technology</h3>
-        <ul class="timeline">
-          <li><span class="when">Spring 2024</span><div><strong>MATH 569 · Statistical Learning</strong></div></li>
-          <li><span class="when">Fall 2023</span><div><strong>DS 151 · Introduction to Data Science</strong></div></li>
-          <li><span class="when">Spring 2023</span><div><strong>MATH 332 · Elementary Linear Algebra</strong></div></li>
-          <li><span class="when">Fall 2022</span><div><strong>DS 151 · Introduction to Data Science</strong><p>Created this new course for the B.S. in Data Science curriculum.</p></div></li>
-        </ul>
-        <h3 class="subheading">Texas A&amp;M University</h3>
-        <ul class="timeline">
-          <li><span class="when">Spring 2022</span><div><strong>ECEN 744 · Scientific Machine Learning</strong><p>Co-created and co-taught this new course in Electrical and Computer Engineering.</p></div></li>
-        </ul>
-        <h3 class="subheading">Johns Hopkins University</h3>
-        <ul class="timeline">
-          <li><span class="when">Fall 2019</span><div><strong>Calculus II for Biological, Social and Management Sciences</strong></div></li>
-          <li><span class="when">Summer 2019</span><div><strong>Calculus II for Biological, Social and Management Sciences</strong></div></li>
-          <li><span class="when">Spring 2019</span><div><strong>Calculus I for Biological, Social and Management Sciences</strong></div></li>
-          <li><span class="when">Fall 2018</span><div><strong>Introduction to Mathematical Programming</strong></div></li>
-          <li><span class="when">Spring 2018</span><div><strong>Applied Mathematics for Engineering</strong><p>Graduate level.</p></div></li>
-          <li><span class="when">Fall 2017</span><div><strong>Scientific Computing: Linear Algebra</strong></div></li>
-          <li><span class="when">Spring 2017</span><div><strong>Applied Mathematics for Engineering</strong><p>Graduate level.</p></div></li>
-        </ul>
+        <div class="year-book year-book-teaching" data-year-book>
+          <div class="year-tabs" role="tablist" aria-label="Teaching years" aria-orientation="vertical">
+            <button class="year-tab" id="tab-teaching-2027" type="button" role="tab" aria-selected="true" aria-controls="teaching-2027" data-target="teaching-2027">2027</button>
+            <button class="year-tab" id="tab-teaching-2026" type="button" role="tab" aria-selected="false" aria-controls="teaching-2026" data-target="teaching-2026" tabindex="-1">2026</button>
+            <button class="year-tab" id="tab-teaching-2025" type="button" role="tab" aria-selected="false" aria-controls="teaching-2025" data-target="teaching-2025" tabindex="-1">2025</button>
+            <button class="year-tab" id="tab-teaching-2024" type="button" role="tab" aria-selected="false" aria-controls="teaching-2024" data-target="teaching-2024" tabindex="-1">2024</button>
+            <button class="year-tab" id="tab-teaching-2023" type="button" role="tab" aria-selected="false" aria-controls="teaching-2023" data-target="teaching-2023" tabindex="-1">2023</button>
+            <button class="year-tab" id="tab-teaching-2022" type="button" role="tab" aria-selected="false" aria-controls="teaching-2022" data-target="teaching-2022" tabindex="-1">2022</button>
+            <button class="year-tab" id="tab-teaching-2019" type="button" role="tab" aria-selected="false" aria-controls="teaching-2019" data-target="teaching-2019" tabindex="-1">2019</button>
+            <button class="year-tab" id="tab-teaching-2018" type="button" role="tab" aria-selected="false" aria-controls="teaching-2018" data-target="teaching-2018" tabindex="-1">2018</button>
+            <button class="year-tab" id="tab-teaching-2017" type="button" role="tab" aria-selected="false" aria-controls="teaching-2017" data-target="teaching-2017" tabindex="-1">2017</button>
+          </div>
+
+          <div class="year-panels">
+            <section class="year-panel teaching-year" id="teaching-2027" role="tabpanel" aria-labelledby="tab-teaching-2027" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2027</h2>
+              <div class="course-group">
+                <h3>University of Houston</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall · Scheduled</p>
+                    <h4>MATH 3363 · Introduction to Partial Differential Equations</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring · Scheduled</p>
+                    <h4>MATH 6397 · Learning Differential Equations from Data: Theory and Application</h4>
+                    <p>Graduate topics course.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2026" role="tabpanel" aria-labelledby="tab-teaching-2026" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2026</h2>
+              <div class="course-group">
+                <h3>University of Houston</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>MATH 3363 · Introduction to Partial Differential Equations</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>MATH 3331 · Intermediate Differential Equations</h4>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2025" role="tabpanel" aria-labelledby="tab-teaching-2025" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2025</h2>
+              <div class="course-group">
+                <h3>University of Houston</h3>
+                <div class="course-list">
+                  <article class="course-entry course-entry-muted">
+                    <p class="course-term">Fall</p>
+                    <h4>No teaching · On leave</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>MATH 3331 · Intermediate Differential Equations</h4>
+                  </article>
+                </div>
+              </div>
+              <div class="course-group">
+                <h3>Summer schools &amp; REUs</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">University of Houston REU</p>
+                    <h4>Introduction to Data Science and Machine Learning</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Texas A&amp;M Institute of Data Science</p>
+                    <h4>Introduction to Scientific Machine Learning</h4>
+                    <p>Three-day lecture series in a five-day summer school.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2024" role="tabpanel" aria-labelledby="tab-teaching-2024" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2024</h2>
+              <div class="course-group">
+                <h3>University of Houston</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>MATH 4364 · Introduction to Numerical Analysis in Scientific Computing</h4>
+                  </article>
+                </div>
+              </div>
+              <div class="course-group">
+                <h3>Illinois Institute of Technology</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>MATH 569 · Statistical Learning</h4>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2023" role="tabpanel" aria-labelledby="tab-teaching-2023" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2023</h2>
+              <div class="course-group">
+                <h3>Illinois Institute of Technology</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>DS 151 · Introduction to Data Science</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>MATH 332 · Elementary Linear Algebra</h4>
+                  </article>
+                </div>
+              </div>
+              <div class="course-group">
+                <h3>Summer REU instruction</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Illinois Tech REU</p>
+                    <h4>Scientific Machine Learning and Social Science Modeling</h4>
+                    <p>Lecture series.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2022" role="tabpanel" aria-labelledby="tab-teaching-2022" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2022</h2>
+              <div class="course-group">
+                <h3>Illinois Institute of Technology</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>DS 151 · Introduction to Data Science</h4>
+                    <p>Created this new course for the B.S. in Data Science curriculum.</p>
+                  </article>
+                </div>
+              </div>
+              <div class="course-group">
+                <h3>Texas A&amp;M University</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>ECEN 744 · Scientific Machine Learning</h4>
+                    <p>Co-created and co-taught this new course in Electrical and Computer Engineering.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2019" role="tabpanel" aria-labelledby="tab-teaching-2019" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2019</h2>
+              <div class="course-group">
+                <h3>Johns Hopkins University</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>Calculus II for Biological, Social and Management Sciences</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Summer</p>
+                    <h4>Calculus II for Biological, Social and Management Sciences</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>Calculus I for Biological, Social and Management Sciences</h4>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2018" role="tabpanel" aria-labelledby="tab-teaching-2018" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2018</h2>
+              <div class="course-group">
+                <h3>Johns Hopkins University</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>Introduction to Mathematical Programming</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>Applied Mathematics for Engineering</h4>
+                    <p>Graduate level.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+
+            <section class="year-panel teaching-year" id="teaching-2017" role="tabpanel" aria-labelledby="tab-teaching-2017" tabindex="0">
+              <p class="year-panel-kicker">Teaching in</p>
+              <h2 class="year-panel-title">2017</h2>
+              <div class="course-group">
+                <h3>Johns Hopkins University</h3>
+                <div class="course-list">
+                  <article class="course-entry">
+                    <p class="course-term">Fall</p>
+                    <h4>Scientific Computing: Linear Algebra</h4>
+                  </article>
+                  <article class="course-entry">
+                    <p class="course-term">Spring</p>
+                    <h4>Applied Mathematics for Engineering</h4>
+                    <p>Graduate level.</p>
+                  </article>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
-    </div></section>
-
-    <section class="content-section"><div class="container section-grid">
-      <h2>Summer schools &amp; REUs</h2><ul class="timeline">
-        <li><span class="when">Summer 2025</span><div><strong>Introduction to Data Science and Machine Learning</strong><p>Lectures for the University of Houston REU.</p></div></li>
-        <li><span class="when">Summer 2025</span><div><strong>Introduction to Scientific Machine Learning</strong><p>Three-day lecture series for the Texas A&amp;M Institute of Data Science summer school.</p></div></li>
-        <li><span class="when">Summer 2023</span><div><strong>Scientific Machine Learning and Social Science Modeling</strong><p>Lecture series for the Illinois Tech REU.</p></div></li>
-      </ul>
-    </div></section>
+    </section>
   </main>
   <footer><div class="container">© 2026 Ming Zhong · University of Houston</div></footer>
+
+  <script>
+    document.querySelectorAll("[data-year-book]").forEach((book) => {
+      const tabs = Array.from(book.querySelectorAll('[role="tab"]'));
+      const panels = Array.from(book.querySelectorAll('[role="tabpanel"]'));
+
+      const activate = (tab, updateHash = false) => {
+        tabs.forEach((item) => {
+          const active = item === tab;
+          item.setAttribute("aria-selected", active ? "true" : "false");
+          item.tabIndex = active ? 0 : -1;
+        });
+        panels.forEach((panel) => {
+          panel.hidden = panel.id !== tab.dataset.target;
+        });
+        if (updateHash) history.replaceState(null, "", `#${tab.dataset.target}`);
+      };
+
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => activate(tab, true));
+        tab.addEventListener("keydown", (event) => {
+          let nextIndex = null;
+          if (["ArrowDown", "ArrowRight"].includes(event.key)) nextIndex = (index + 1) % tabs.length;
+          if (["ArrowUp", "ArrowLeft"].includes(event.key)) nextIndex = (index - 1 + tabs.length) % tabs.length;
+          if (event.key === "Home") nextIndex = 0;
+          if (event.key === "End") nextIndex = tabs.length - 1;
+          if (nextIndex === null) return;
+          event.preventDefault();
+          activate(tabs[nextIndex], true);
+          tabs[nextIndex].focus();
+        });
+      });
+
+      const id = window.location.hash.slice(1);
+      activate(tabs.find((tab) => tab.dataset.target === id) || tabs[0]);
+    });
+  </script>
 </body>
 </html>
