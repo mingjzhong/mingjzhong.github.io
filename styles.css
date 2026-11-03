@@ -59,15 +59,20 @@ h4 { margin: 0 0 5px; font-size: 1rem; }
 .page-heading-featured { position: relative; overflow: hidden; }
 .page-heading-featured::after {
   position: absolute;
-  top: -120px;
-  right: max(-80px, calc((100vw - var(--max-width)) / 2 - 150px));
-  width: 360px;
-  height: 360px;
-  border: 70px solid rgba(104, 172, 229, .18);
-  border-radius: 50%;
+  top: 50%;
+  right: max(-60px, calc((100vw - var(--max-width)) / 2 - 90px));
+  width: 420px;
+  height: 380px;
+  transform: translateY(-50%);
+  background: url("header_flock.svg") center / contain no-repeat;
+  opacity: .55;
+  pointer-events: none;
   content: "";
 }
 .page-heading-featured .container { position: relative; z-index: 1; }
+@media (max-width: 760px) {
+  .page-heading-featured::after { right: -230px; opacity: .3; }
+}
 .header-topics { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 26px; }
 .header-topics span {
   padding: 6px 11px;
